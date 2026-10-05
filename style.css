@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dilip | Personal Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+
+            <div class="logo">Dilip</div>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+
+            <!-- Theme Button -->
+            <button id="themeToggle" class="theme-toggle">
+                🌙
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="tagline">B.Tech CSE Student</p>
+
+                <h1>Hello, I'm <span>Dilip</span></h1>
+
+                <p class="hero-text">
+                    Computer Science student interested in programming,
+                    web development, data structures, and modern technology.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="button" href="#projects">
+                        View Projects
+                    </a>
+
+                    <a class="button secondary-button" href="#about">
+                        About Me
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="section">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am Dilip, a B.Tech Computer Science and Engineering
+                student at JECRC University, Jaipur.
+            </p>
+
+            <p>
+                I am currently learning programming, data structures,
+                web development, Git & GitHub, and other computer science
+                concepts.
+            </p>
+
+            <p>
+                My goal is to build strong technical skills and create
+                practical projects that can help me prepare for internships
+                and future placements.
+            </p>
+
+            <p class="placeholder">
+                <strong>PLACEHOLDER:</strong>
+                Add your hobbies, achievements, certifications,
+                or other personal information here.
+            </p>
+
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Web Structure</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Web Design</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Web Interactivity</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Programming</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>C++</h3>
+                    <p>Programming & DSA</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>DSA</h3>
+                    <p>Problem Solving</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version Control</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>PLACEHOLDER</h3>
+                    <p>Add another skill</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+
+            <h2>My Projects</h2>
+
+            <div class="projects-container">
+
+                <article class="project-card">
+
+                    <div class="project-number">01</div>
+
+                    <h3>AI in Education Website</h3>
+
+                    <p>
+                        An interactive website explaining how artificial
+                        intelligence is transforming education.
+                    </p>
+
+                    <a href="PLACEHOLDER" target="_blank">
+                        View Project →
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">02</div>
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        A personal portfolio website showcasing my skills,
+                        projects, and learning journey.
+                    </p>
+
+                    <a href="PLACEHOLDER" target="_blank">
+                        View Project →
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">03</div>
+
+                    <h3>PLACEHOLDER: Project Name</h3>
+
+                    <p>
+                        PLACEHOLDER: Add a short description
+                        of your project here.
+                    </p>
+
+                    <a href="PLACEHOLDER" target="_blank">
+                        View Project →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section class="contact section">
+
+            <h2>Let's Connect</h2>
+
+            <p>
+                Interested in connecting with me or discussing a project?
+            </p>
+
+            <a class="button" href="mailto:PLACEHOLDER">
+                Contact Me
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>
+            &copy; 2026 Dilip. All rights reserved.
+        </p>
+
+        <p>
+            <strong>PLACEHOLDER:</strong>
+            Add your GitHub, LinkedIn, or other social links.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
