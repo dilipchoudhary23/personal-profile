@@ -1,251 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Dilip | Personal Profile</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dilip Haritwal — Computer Science student and aspiring software developer from Jaipur.">
+  <title>Dilip Haritwal | Computer Science Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <div class="noise"></div>
 
-    <!-- Header -->
-    <header class="header">
-        <nav class="navbar">
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span>D</span> Dilip.</a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-            <div class="logo">Dilip</div>
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse"></span> COMPUTER SCIENCE STUDENT · JAIPUR</p>
+        <h1>Hi, I'm <span>Dilip Haritwal.</span><br>Learning today. Building tomorrow.</h1>
+        <p class="hero-text">Computer Science student passionate about programming and technology, currently pursuing B.Tech at JECRC University and graduating in 2029.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="btn ghost" href="https://github.com/dilipchoudhary23" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>2029</strong><small>Graduation</small></div>
+          <div><strong>3rd</strong><small>Semester</small></div>
+          <div><strong>82%</strong><small>Class 10</small></div>
+        </div>
+      </div>
 
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
+      <div class="hero-card reveal delay-1">
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="avatar">DH</div>
+        <div class="card-code">
+          <span>class</span> Dilip:
+          <br>&nbsp;&nbsp;<span>focus</span> = <em>"code"</em>
+          <br>&nbsp;&nbsp;<span>goal</span> = <em>"great career"</em>
+          <br>&nbsp;&nbsp;<span>year</span> = <em>2029</em>
+        </div>
+        <div class="floating-tag tag-one">Python</div>
+        <div class="floating-tag tag-two">C++</div>
+        <div class="floating-tag tag-three">🚀</div>
+      </div>
+    </section>
 
-            <!-- Theme Button -->
-            <button id="themeToggle" class="theme-toggle">
-                🌙
-            </button>
+    <section id="about" class="section container">
+      <div class="section-head reveal">
+        <p class="eyebrow">01 · ABOUT</p>
+        <h2>A student with a <span>builder's mindset.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-main reveal">
+          <p>I’m Dilip Haritwal, a Computer Science student from Jaipur. I enjoy learning programming, exploring technology, and turning small ideas into working programs.</p>
+          <p>I’m currently in my 3rd semester of B.Tech at JECRC University. My goal is simple: graduate in 2029 with strong skills and land a great job where I can keep learning and building.</p>
+        </div>
+        <div class="interest-card reveal delay-1">
+          <span class="mini-label">WHEN I'M NOT CODING</span>
+          <h3>🏏 Sports &nbsp;·&nbsp; 🎮 Mobile Games</h3>
+          <p>I like playing sports and mobile games — a good balance between focused work and fun.</p>
+        </div>
+      </div>
+    </section>
 
-        </nav>
-    </header>
-
-
-    <main>
-
-        <!-- Hero Section -->
-        <section class="hero">
-
-            <div class="hero-content">
-
-                <p class="tagline">B.Tech CSE Student</p>
-
-                <h1>Hello, I'm <span>Dilip</span></h1>
-
-                <p class="hero-text">
-                    Computer Science student interested in programming,
-                    web development, data structures, and modern technology.
-                </p>
-
-                <div class="hero-buttons">
-                    <a class="button" href="#projects">
-                        View Projects
-                    </a>
-
-                    <a class="button secondary-button" href="#about">
-                        About Me
-                    </a>
-                </div>
-
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">02 · EDUCATION</p>
+          <h2>My learning <span>journey.</span></h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="year">2029</div>
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <span class="status">CURRENT · 3RD SEMESTER</span>
+              <h3>B.Tech — Computer Science</h3>
+              <p>JECRC University</p>
+              <small>Current focus: continuing my foundation in computer science and programming.</small>
             </div>
-
-        </section>
-
-
-        <!-- About Section -->
-        <section id="about" class="section">
-
-            <h2>About Me</h2>
-
-            <p>
-                I am Dilip, a B.Tech Computer Science and Engineering
-                student at JECRC University, Jaipur.
-            </p>
-
-            <p>
-                I am currently learning programming, data structures,
-                web development, Git & GitHub, and other computer science
-                concepts.
-            </p>
-
-            <p>
-                My goal is to build strong technical skills and create
-                practical projects that can help me prepare for internships
-                and future placements.
-            </p>
-
-            <p class="placeholder">
-                <strong>PLACEHOLDER:</strong>
-                Add your hobbies, achievements, certifications,
-                or other personal information here.
-            </p>
-
-        </section>
-
-
-        <!-- Skills Section -->
-        <section id="skills" class="section">
-
-            <h2>My Skills</h2>
-
-            <div class="skills-container">
-
-                <div class="skill-card">
-                    <h3>HTML</h3>
-                    <p>Web Structure</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>CSS</h3>
-                    <p>Web Design</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>JavaScript</h3>
-                    <p>Web Interactivity</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>Python</h3>
-                    <p>Programming</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>C++</h3>
-                    <p>Programming & DSA</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>DSA</h3>
-                    <p>Problem Solving</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>Git & GitHub</h3>
-                    <p>Version Control</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>PLACEHOLDER</h3>
-                    <p>Add another skill</p>
-                </div>
-
+          </article>
+          <article class="timeline-item reveal">
+            <div class="year">12th</div>
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <span class="status">SCHOOL</span>
+              <h3>Senior Secondary</h3>
+              <p>Impulse Academy · <strong>60%</strong></p>
             </div>
-
-        </section>
-
-
-        <!-- Projects Section -->
-        <section id="projects" class="section">
-
-            <h2>My Projects</h2>
-
-            <div class="projects-container">
-
-                <article class="project-card">
-
-                    <div class="project-number">01</div>
-
-                    <h3>AI in Education Website</h3>
-
-                    <p>
-                        An interactive website explaining how artificial
-                        intelligence is transforming education.
-                    </p>
-
-                    <a href="PLACEHOLDER" target="_blank">
-                        View Project →
-                    </a>
-
-                </article>
-
-
-                <article class="project-card">
-
-                    <div class="project-number">02</div>
-
-                    <h3>Portfolio Website</h3>
-
-                    <p>
-                        A personal portfolio website showcasing my skills,
-                        projects, and learning journey.
-                    </p>
-
-                    <a href="PLACEHOLDER" target="_blank">
-                        View Project →
-                    </a>
-
-                </article>
-
-
-                <article class="project-card">
-
-                    <div class="project-number">03</div>
-
-                    <h3>PLACEHOLDER: Project Name</h3>
-
-                    <p>
-                        PLACEHOLDER: Add a short description
-                        of your project here.
-                    </p>
-
-                    <a href="PLACEHOLDER" target="_blank">
-                        View Project →
-                    </a>
-
-                </article>
-
+          </article>
+          <article class="timeline-item reveal">
+            <div class="year">10th</div>
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <span class="status">SCHOOL</span>
+              <h3>Secondary Education</h3>
+              <p>Impulse Academy · <strong>82%</strong></p>
             </div>
+          </article>
+        </div>
 
-        </section>
+        <div class="semester-grid reveal">
+          <div><span>01</span><h4>Semester 1</h4><p>Communication Skills · CPLT</p></div>
+          <div><span>02</span><h4>Semester 2</h4><p>Professional Skills · C++</p></div>
+          <div><span>03</span><h4>Semester 3</h4><p>Currently pursuing</p></div>
+        </div>
+      </div>
+    </section>
 
+    <section id="skills" class="section container">
+      <div class="section-head reveal">
+        <p class="eyebrow">03 · SKILLS</p>
+        <h2>Tools I'm <span>building with.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill reveal"><div class="skill-icon">PY</div><div><h3>Python</h3><p>Beginner programming & problem solving</p></div></div>
+        <div class="skill reveal delay-1"><div class="skill-icon">C++</div><div><h3>C++</h3><p>Programming fundamentals</p></div></div>
+        <div class="skill reveal delay-2"><div class="skill-icon">GH</div><div><h3>GitHub</h3><p>Projects & code sharing</p></div></div>
+        <div class="skill reveal delay-3"><div class="skill-icon">CS</div><div><h3>Computer Science</h3><p>Growing technical foundation</p></div></div>
+      </div>
+    </section>
 
-        <!-- Contact Section -->
-        <section class="contact section">
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">04 · PROJECTS</p>
+          <h2>Small programs, <span>real progress.</span></h2>
+          <p>Three beginner-friendly Python projects from my programming practice.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-number">01</div>
+            <div class="project-icon">01</div>
+            <h3>Armstrong Number Checker</h3>
+            <p>A Python program that checks whether a number equals the sum of its digits raised to the power of the number of digits.</p>
+            <div class="tags"><span>Python</span><span>Loops</span><span>Math</span></div>
+          </article>
+          <article class="project-card featured reveal delay-1">
+            <div class="project-number">02</div>
+            <div class="project-icon">02</div>
+            <h3>Prime Number Checker</h3>
+            <p>A Python checker that determines whether a number is prime using divisibility testing up to its square root.</p>
+            <div class="tags"><span>Python</span><span>Logic</span><span>Algorithms</span></div>
+          </article>
+          <article class="project-card reveal delay-2">
+            <div class="project-number">03</div>
+            <div class="project-icon">03</div>
+            <h3>Pronic Number Checker</h3>
+            <p>A Python program that checks whether a number can be represented as the product of two consecutive integers.</p>
+            <div class="tags"><span>Python</span><span>Loops</span><span>Problem Solving</span></div>
+          </article>
+        </div>
+        <div class="github-banner reveal">
+          <div><span class="mini-label">MORE ON GITHUB</span><h3>See what I'm building next.</h3></div>
+          <a class="btn primary" href="https://github.com/dilipchoudhary23" target="_blank" rel="noopener">Visit GitHub ↗</a>
+        </div>
+      </div>
+    </section>
 
-            <h2>Let's Connect</h2>
+    <section id="contact" class="section contact container">
+      <div class="contact-card reveal">
+        <div>
+          <p class="eyebrow">05 · CONTACT</p>
+          <h2>Let's connect.</h2>
+          <p>I'm currently focused on learning, building projects, and preparing for a strong start to my career after graduation.</p>
+        </div>
+        <a class="btn primary" href="https://github.com/dilipchoudhary23" target="_blank" rel="noopener">Connect on GitHub ↗</a>
+      </div>
+    </section>
+  </main>
 
-            <p>
-                Interested in connecting with me or discussing a project?
-            </p>
+  <footer class="footer container">
+    <p>© <span id="year"></span> Dilip Haritwal</p>
+    <p>Built with HTML · CSS · JavaScript</p>
+  </footer>
 
-            <a class="button" href="mailto:PLACEHOLDER">
-                Contact Me
-            </a>
-
-        </section>
-
-    </main>
-
-
-    <!-- Footer -->
-    <footer class="footer">
-
-        <p>
-            &copy; 2026 Dilip. All rights reserved.
-        </p>
-
-        <p>
-            <strong>PLACEHOLDER:</strong>
-            Add your GitHub, LinkedIn, or other social links.
-        </p>
-
-    </footer>
-
-
-    <!-- JavaScript -->
-    <script src="script.js"></script>
-
+  <button id="topBtn" class="top-btn" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
 </body>
 </html>
